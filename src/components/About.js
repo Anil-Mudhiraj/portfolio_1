@@ -1,11 +1,8 @@
 import React from "react";
 import api from "../assets/icons/api.svg";
 import computer from "../assets/icons/computer.svg";
-import backend from "../assets/icons/backend.svg";
-import ux from "../assets/icons/ux.svg";
 import repair from "../assets/icons/repair.svg";
 import algo from "../assets/icons/algo.svg";
-import puzzle from "../assets/icons/puzzle.svg";
 
 import Skillcard from "./Skillcard";
 import "./About.css";

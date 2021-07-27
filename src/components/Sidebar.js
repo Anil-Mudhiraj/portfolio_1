@@ -4,7 +4,6 @@ import "./Sidebar.css";
 import github from "../assets/icons/github-big-logo.png";
 import linkedin from "../assets/icons/linkedin.png";
 import pin from "../assets/icons/pin.svg";
-import tie from "../assets/icons/tie.svg";
 import myPic from "../assets/mypic.jpeg";
 import { motion } from "framer-motion";
 
