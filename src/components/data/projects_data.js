@@ -24,7 +24,7 @@ const data_projects = [
   {
     name: "Crypto Currency Tracker",
     image: crypto,
-    deployed_url: "https://crypto-tracker-v1.netlify.app",
+    deployed_url: "https://crypto-tracker-1.netlify.app/",
     github_url: "",
     category: ["node.js", "api", "react.js"],
   },
