@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+.side-bar {
+  background-color: #fff;
+  height: 88vh;
+  border-radius: 20px;
+  padding: 25px 15px;
+  box-shadow: 0 0 10px black;
+  text-align: center;
+}
+
+.sidebar__avatar {
+  height: 120px;
+  width: 130px;
+  object-fit: contain;
+  box-shadow: 0 0 10px black;
+  border-radius: 50%;
+}
+
+.sidebar__icon {
+  width: 25px;
+}
+.sidebar__name {
+  margin: 20px 0 10px;
+  font-weight: 1000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.sidebar__item {
+  margin-bottom: 6px;
+  padding-top: 0 5px;
+  height: 40px;
+  font-size: 1.05rem;
+}
+
+.sidebar__title {
+  background-color: #f1f1f1;
+  border-radius: 30px;
+  padding: 8px 10px;
+  text-align: center;
+}
+.sidebar__title h2 {
+  font-family: "Montserrat", sans-serif;
+
+  font-weight: 400;
+  font-size: 1.7rem;
+}
+.sidebar__resume {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 12px 0;
+}
+
+.sidebar__resume-button {
+  padding: 5px 10px;
+  border-radius: 30px;
+}
+
+.sidebar__social-icons {
+  margin-bottom: 10px;
+}
+
+.sidebar__social-icons a {
+  margin: 0px 6px;
+}
+
+.sidebar__contact {
+  background-color: #dbdddf;
+  padding: 5px 0;
+  margin: 5px -15px;
+}
+
+.sidebar__email {
+  background-image: linear-gradient(to right bottom, #00f260, #0575e6);
+  border-radius: 30px;
+  cursor: pointer;
+  padding: 0 15px;
+  text-align: center;
+  margin: 20px 70px 0px;
+  transition: all;
+}
+
+.sidebar__email:hover {
+  transform: scale(1.2);
+}
+
+.sidebar__github:hover {
+  background-color: #f1f1f2;
+  color: black;
+  border-radius: 30px;
+}
+
+.sidebar__github a {
+  color: black;
+}
+.sidebar__github img {
+  margin: 0 5px 5px 3px;
+}
+
+.sidebar__pin {
+  margin: 0 5px;
+  height: 30px;
+}
