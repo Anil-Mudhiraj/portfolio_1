@@ -30,6 +30,11 @@ const skills = [
     title: "Competitive Coder",
     content: "A daily problem solver in Hacker Rank and LeetCode.",
   },
+  {
+    icon: algo,
+    title: "Competitive Coder",
+    content: "A daily problem solver in Hacker Rank and LeetCode.",
+  },
 ];
 
 function About() {
@@ -41,7 +46,7 @@ function About() {
       </h6>
       <div className="container about__container">
         <div className="about__heading">What I offer !</div>
-        <div className="row">
+        <div className="row about__cards">
           {skills.map((skill) => (
             <Skillcard skill={skill} />
           ))}

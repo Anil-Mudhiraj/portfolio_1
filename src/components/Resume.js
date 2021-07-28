@@ -86,7 +86,7 @@ function Resume() {
       initial="hidden"
       animate="visible"
     >
-      <div className="row">
+      <div className="row ">
         <div className="col-lg-6 resume-card">
           <h4 className="resume-card__heading">Education</h4>
           <div className="resume-card__body">
@@ -112,7 +112,7 @@ function Resume() {
           </div>
         </div>
       </div>
-      <div className="row">
+      <div className="row resume-cards">
         <div className="col-lg-6 resume-languages">
           <h4 className="resume-language__heading">Languages and Frameworks</h4>
           <div className="resume-language__body">

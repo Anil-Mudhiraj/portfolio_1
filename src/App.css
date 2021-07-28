@@ -15,7 +15,7 @@ body {
 }
 
 .app-main-container {
-  height: 88vh;
+  height: 100%;
   background-color: #fff;
   border-radius: 20px;
   padding: 25px 15px;

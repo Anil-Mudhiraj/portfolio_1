@@ -1,8 +1,8 @@
 /* About css */
 
 .about {
-  padding: 20px;
-  margin: -35px;
+  padding: 15px 15px 15px 15px;
+  margin: -24px -28px;
 }
 
 .about__intro {
@@ -13,7 +13,7 @@
 
 .about__container {
   background-color: #dbdddf;
-  padding: 30px 20px;
+  margin: -5px 5px 0 0;
 }
 
 .about__heading {
@@ -22,7 +22,10 @@
   color: #354358;
   margin-left: 10px;
 }
-
+/* .about__cards {
+  height: 54vh;
+  overflow-y: auto;
+} */
 /* 
 skill-card css */
 

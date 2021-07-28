@@ -107,3 +107,9 @@ a {
   margin: 0 5px;
   height: 30px;
 }
+
+@media (max-width: 991px) {
+  .side-bar {
+    height: 100%;
+  }
+}
